@@ -1,7 +1,7 @@
 ## TWRP device tree for Samsung Galaxy Note 3 (China)
 ## hltechn
 
-Add to `.repo/local_manifests/hlte.xml`:
+Add to `.repo/local_manifests/hltechn.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
