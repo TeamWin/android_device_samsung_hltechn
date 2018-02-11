@@ -1,5 +1,5 @@
-## TWRP device tree for Samsung Galaxy Note 3 (Americas, Korea & Europe)
-## hltexx, hltecan, hltekor, hltespr, hltetmo, hlteusc, hltevzw
+## TWRP device tree for Samsung Galaxy Note 3 (China)
+## hltechn
 
 Add to `.repo/local_manifests/hlte.xml`:
 
@@ -7,7 +7,7 @@ Add to `.repo/local_manifests/hlte.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
-  <project name="TeamWin/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="android-7.1" />
+  <project name="ripee/twrp_android_device_samsung_hltechn" path="device/samsung/hltechn" remote="github" revision="android-7.1" />
 </manifest>
 ```
 
@@ -17,7 +17,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_hlte-eng
+lunch omni_hltechn-eng
 mka recoveryimage
 ```
 
